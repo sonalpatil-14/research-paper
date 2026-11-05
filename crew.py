@@ -1,8 +1,8 @@
 
 # Fix CrewAI cache_breakpoint issue with Groq
-import crewai.llms.cache as _crewai_cache
+# import crewai.llms.cache as _crewai_cache
 
-_crewai_cache.mark_cache_breakpoint = lambda msg: msg
+#_crewai_cache.mark_cache_breakpoint = lambda msg: msg
 from crewai import Crew, Process
 
 from agents import (
